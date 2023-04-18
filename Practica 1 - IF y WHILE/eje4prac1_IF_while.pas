@@ -6,7 +6,7 @@ ingrese uno cuyo valor sea exactamente el doble de X (el primer número leído)}
 
 program cuatro; 
 var
-numero,Doble_numero: integer; 
+numero,Doble_numero: integer; { Hubo un error, la variables deben ser de tipo real como lo indica la consigna.}
 begin
 	write('Ingrese un numero: '); 
 		readln(numero); 
